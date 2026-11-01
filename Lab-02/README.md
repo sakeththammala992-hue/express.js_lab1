@@ -183,49 +183,49 @@ Every SQL query that uses input from the request uses `?` placeholders. User inp
 
 Run `sqlite3 books.db`, then `.headers on`, `.mode column`, `SELECT * FROM book;` to show all 10 starting rows.
 
-![Database before testing](screenshots/cli-before.png)
+![Database before testing](screenshots/cli-before.jpeg)
 
 ### 2. GET All Books (200 OK)
 
 Send `GET http://localhost:3000/books/` in Postman or Thunder Client.
 
-![GET all books](screenshots/get-all.png)
+![GET all books](screenshots/get-all.jpeg)
 
 ### 3. GET One Book (200 OK)
 
 Send `GET http://localhost:3000/books/1/` to retrieve book with id 1.
 
-![GET one book](screenshots/get-one.png)
+![GET one book](screenshots/get-one.jpeg)
 
 ### 4. POST Add a Book (201 Created)
 
 Send `POST http://localhost:3000/books/` with a JSON body containing `title`, `author`, `price`, `pages`.
 
-![POST add a book](screenshots/post.png)
+![POST add a book](screenshots/post.jpeg)
 
 ### 5. PUT Update a Book (200 OK)
 
 Send `PUT http://localhost:3000/books/1/` with a JSON body containing updated values for all four fields.
 
-![PUT update a book](screenshots/put.png)
+![PUT update a book](screenshots/put.jpeg)
 
 ### 6. DELETE a Book (200 OK)
 
 Send `DELETE http://localhost:3000/books/1/` to remove book with id 1.
 
-![DELETE a book](screenshots/delete.png)
+![DELETE a book](screenshots/delete.jpeg)
 
 ### 7. Error Case — Book Not Found (404)
 
 Send `GET http://localhost:3000/books/9999/` with an id that does not exist.
 
-![Book not found](screenshots/not-found.png)
+![Book not found](screenshots/not-found.jpeg)
 
 ### 8. Database After Testing (SQLite CLI)
 
 Run the same SELECT to show the database state after all tests are complete.
 
-![Database after testing](screenshots/cli-after.png)
+![Database after testing](screenshots/cli-after.jpeg)
 
 ## HTTP Status Codes
 
