@@ -10,8 +10,7 @@
 
 ## Live Link
 
-Deployment is pending. The application runs locally on port 3000. A platform such as Render or Railway can be used to deploy a persistent Node.js server. Static-hosting platforms like GitHub Pages or Vercel's static tier cannot run a persistent Express server.
-
+Live link :https://express-js-lab1.vercel.app/
 ## Objective
 
 To set up a Node.js project, create a basic HTTP server using the built-in `http` module, and build an Express server with multiple routes and appropriate HTTP status codes.
