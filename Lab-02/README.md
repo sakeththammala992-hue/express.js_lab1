@@ -10,7 +10,7 @@
 
 ## Live Link
 
-Deployment pending — SQLite requires a writable filesystem and a persistent Node.js process. Vercel runs Express as serverless functions with a read-only filesystem, so SQLite writes do not work there. The recommended platform is **Render** (free plan), which provides a persistent server and a writable disk. The `sqlite3` native module also installs correctly on Render. Note: on Render's free plan the server sleeps after 15 minutes of inactivity and the database resets on every restart (because the disk is ephemeral on the free tier). A live URL will be added here only after deployment is authorised and all five endpoints have been confirmed working.
+https://expressjslab2.vercel.app/
 
 ## Objective
 
