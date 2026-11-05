@@ -10,7 +10,7 @@
 
 ## Live Link
 
-Live link :https://express-js-lab1-6zvjyqtoo-saketh-7144.vercel.app/
+Live link : http://express-js-lab-01.vercel.app/
 ## Objective
 
 To set up a Node.js project, create a basic HTTP server using the built-in `http` module, and build an Express server with multiple routes and appropriate HTTP status codes.
